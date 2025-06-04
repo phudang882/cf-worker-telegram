@@ -2,11 +2,13 @@
   "name": "telegram-bot-api-proxy",
   "version": "1.0.0",
   "description": "A Cloudflare Worker proxy for Telegram Bot API",
-  "main": "worker.js",
+  "main": "telegram-bot-proxy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish"
   },
-  "author": "Your Name",
+  "author": "Phu",
   "license": "MIT",
   "devDependencies": {
     "@cloudflare/wrangler": "^1.19.0"
